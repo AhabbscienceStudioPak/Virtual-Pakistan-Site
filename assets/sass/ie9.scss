@@ -4,17 +4,45 @@
 @import 'libs/skel';
 
 /*
-	Highlights by HTML5 UP
+	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Loader */
+/* BG */
 
-	html {
-		body {
-			&:before, &:after {
-				display: none !important;
+	#bg {
+		&:before {
+			background: _palette(bg-overlay);
+		}
+	}
+
+/* Header */
+
+	#header {
+		.logo {
+			margin: 0 auto;
+		}
+
+		.content {
+			display: inline-block;
+		}
+
+		nav {
+			ul {
+				display: inline-block;
+
+				 li {
+				 	display: inline-block;
+				 }
 			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		article {
+			margin: 0 auto;
 		}
 	}
